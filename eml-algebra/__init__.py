@@ -1,5 +1,5 @@
 """
-pythoneml
+eml-algebra
 =========
 A recreational mathematics library that bootstraps every algebraic and
 transcendental operation from a single primitive function:
