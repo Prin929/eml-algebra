@@ -1,8 +1,8 @@
-# pythoneml
+# eml-algebra
 
 > *What if one function was enough?*
 
-**pythoneml** is a recreational mathematics library that bootstraps every algebraic and transcendental operation from a single primitive:
+**eml-algebra** is a recreational mathematics library that bootstraps every algebraic and transcendental operation from a single primitive:
 
 ```
 eml(x, y) = eˣ − ln(y)
@@ -15,13 +15,13 @@ Addition, multiplication, powers, roots, trig, calculus — all of it traces bac
 ## Installation
 
 ```bash
-pip install pythoneml
+pip install eml-algebra
 ```
 
 ## Quick Start
 
 ```python
-from pythoneml import EmlNumber
+from eml-algebra import EmlNumber
 
 a = EmlNumber(6)
 b = EmlNumber(2)
@@ -82,7 +82,7 @@ print(EmlNumber('0.5').factorial()) # ≈ 0.886226925  (√π / 2)
 ## The Primitive Directly
 
 ```python
-from pythoneml import eml, eml_exp, eml_ln
+from eml-algebra import eml, eml_exp, eml_ln
 from decimal import Decimal
 
 print(eml(Decimal('1'), Decimal('1')))    # e¹ − ln(1) = e
