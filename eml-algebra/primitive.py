@@ -1,7 +1,7 @@
 """
 primitive.py
 ============
-The single seed of the entire pythoneml library.
+The single seed of the entire eml-algebra library.
 
     eml(x, y) = e^x − ln(y)
 
