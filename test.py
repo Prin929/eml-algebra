@@ -1,7 +1,7 @@
 """
 test.py
 =======
-Comprehensive test suite for pythoneml v2.0.0.
+Comprehensive test suite for eml-algebra v2.0.0.
 Covers every fix described in the review:
 
   [1] Float precision leak fix (mul / div use Decimal.ln / Decimal.exp)
@@ -19,7 +19,7 @@ Covers every fix described in the review:
 import sys
 sys.path.insert(0, '.')          # so we can run from the repo root
 from decimal import Decimal
-from pythoneml import EmlNumber, eml, eml_exp, eml_ln
+from eml-algebra import EmlNumber, eml, eml_exp, eml_ln
 
 PASS = "\033[92m PASS\033[0m"
 FAIL = "\033[91m FAIL\033[0m"
