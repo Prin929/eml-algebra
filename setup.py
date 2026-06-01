@@ -10,7 +10,7 @@ except FileNotFoundError:
     )
 
 setup(
-    name="pythoneml",
+    name="eml-algebra",
     version="2.0.0",
     author="Esoteric Math Enthusiast",
     description=(
@@ -19,7 +19,7 @@ setup(
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pythoneml",
+    url="https://github.com/Prin929/eml-algebra",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
