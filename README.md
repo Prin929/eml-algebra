@@ -1,5 +1,7 @@
 # eml-algebra
 
+[![PyPI version](https://badge.fury.io/py/eml-algebra.svg)](https://pypi.org/project/eml-algebra/)
+
 > *What if one function was enough?*
 
 **eml-algebra** is a recreational mathematics library that bootstraps every algebraic and transcendental operation from a single primitive:
